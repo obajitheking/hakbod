@@ -1,0 +1,36 @@
+.header_container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 15%;
+  }
+
+  .wrap1 {
+    margin-right: auto;
+  }
+  
+  .wrap1 p {
+    padding-bottom: 20px;
+  }
+  
+  .wrap1 h1 {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .wrap1 h3 {
+    font-size: 45px;
+    color: #8c52ff;
+    font-style: italic;
+  }
+
+  .drop {
+    filter: drop-shadow(-120px 50px 4px #8c52ff66);
+    margin-left: auto;
+  }
+
+  @media (max-width: 960px) {
+  
+    .geta {
+      display: none;
+    }
+
+}

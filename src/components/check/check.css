@@ -1,0 +1,35 @@
+.check1 {
+    padding-top: 10%;
+  }
+  
+  .card-1 {
+    background-color: #8c52ff26;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 530px;
+    width: 17rem;
+  }
+
+  .card1
+  {
+    padding: 20px;
+  }
+
+  .card1 h2 {
+    font-size: 21px;
+  }
+
+  .card1 p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+
+
+  @media (max-width: 955px) {
+  
+    .hare {
+      flex-direction: column;
+    }
+
+}
